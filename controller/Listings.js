@@ -6,7 +6,7 @@ import {
 
 export class ListingController extends BaseAPIController {
 
-/*Function ti get the listings to show on slider on frontend*/
+/*Function to get the real estate listings from database, to show on slider on frontend*/
 
     getListingsForSlider = async (req, res, next) => {
         try {

@@ -7,7 +7,6 @@ import ListingValidator from "../validators/ListingValidator";
 export default (app) => {
     /* Route for Listings API  */
    
-
     app.route("/listings/getListingsForSlider").get(listings.getListingsForSlider);
 
     return app;
